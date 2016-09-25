@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mxg1055.trendybites.BudgetQuestionnaire"
+    tools:showIn="@layout/activity_budget_questionnaire">
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/questions"
+        android:textColor="@color/saGreen"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtFoodBudget"
+        android:layout_below="@id/questions"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/foodBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questions"
+        android:layout_toRightOf="@id/txtBudget"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/btnSuggest"
+        android:background="@color/saGreen"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/foodBudget"
+        android:text="@string/btnSuggest"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>

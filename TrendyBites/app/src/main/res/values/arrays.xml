@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_fav_entries">
+        <item>Yes</item>
+        <item>No</item>
+    </array>
+    <array name="pref_fav_values">
+        <item>YES</item>
+        <item>NO</item>
+    </array>
+</resources>

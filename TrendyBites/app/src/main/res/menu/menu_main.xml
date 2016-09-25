@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mxg1055.trendybites.MainActivity">
+    <item
+        android:id="@+id/action_menu"
+        android:title="@string/action_menu"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menu_fav"
+        android:title="@string/action_favorites"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="never|collapseActionView" />
+
+</menu>
