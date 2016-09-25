@@ -1,0 +1,1 @@
+Trendy Bites is an Android Application to provide food suggestions based on different user preferences like Location, Budget and Weather. The application uses Google API, Locu API, SQLiteDatabase, Content Providers and Resolvers, and Shared Preferences to achieve the required functionality.
